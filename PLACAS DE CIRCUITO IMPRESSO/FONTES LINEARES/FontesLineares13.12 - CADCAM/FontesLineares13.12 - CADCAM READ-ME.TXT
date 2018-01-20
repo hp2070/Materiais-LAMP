@@ -1,0 +1,39 @@
+LABCENTER PROTEUS TOOL INFORMATION FILE
+=======================================
+
+In case of difficulty, please e-mail support@labcenter.co.uk
+
+Tool set up for Proteus layout 'FontesLineares.pdsprj'.
+CADCAM generated at 11:45:22 on quarta-feira, 13 de dezembro de 2017.
+
+File List
+---------
+Bottom Copper           : FontesLineares13.12 - CADCAM Bottom Copper.TXT
+Mechanical 1            : FontesLineares13.12 - CADCAM Mechanical 1.TXT
+Drill                   : FontesLineares13.12 - CADCAM Drill.TXT
+
+Photoplotter Setup
+------------------
+Format: RS274X, ASCII, 2.4, imperial, absolute, eob=*, LZO
+Notes:  D=Diameter, S=Side, W=Width, H=Height, C=Chamfer
+
+D10	CIRCLE  D=45th                                                            DRAW
+D11	CIRCLE  D=40th                                                            DRAW
+D12	CIRCLE  D=2.5th                                                           DRAW
+D13	SQUARE  S=80th                                                            FLASH
+D14	SQUARE  S=100th                                                           FLASH
+D15	SQUARE  S=75th                                                            FLASH
+D16	CIRCLE  D=250th                                                           FLASH
+D17	CIRCLE  D=8th                                                             DRAW
+
+NC Drill Setup
+--------------
+Format: ASCII, 2.4, imperial, absolute, eob=<CR><LF>, no zero suppression.
+Notes:  Tool sizes are diameters. Layer sets are in brackets - 0=TOP, 15=BOTTOM, 1-14=INNER.
+
+T01	40th (0-15) Plated
+T02	50th (0-15) Plated
+T03	157.4th (0-15) Plated
+
+
+[END OF FILE]

@@ -1,0 +1,49 @@
+LABCENTER PROTEUS TOOL INFORMATION FILE
+=======================================
+
+In case of difficulty, please e-mail support@labcenter.co.uk
+
+Tool set up for Proteus layout 'TrifasicoCorrenteeTensao.pdsprj'.
+CADCAM generated at 16:52:54 on terça-feira, 16 de janeiro de 2018.
+
+File List
+---------
+Bottom Copper           : TrifasicoCorrenteeTensao - CADCAM Bottom Copper.TXT
+Mechanical 1            : TrifasicoCorrenteeTensao - CADCAM Mechanical 1.TXT
+Drill                   : TrifasicoCorrenteeTensao - CADCAM Drill.TXT
+
+Photoplotter Setup
+------------------
+Format: RS274X, ASCII, 2.4, imperial, absolute, eob=*, LZO
+Notes:  D=Diameter, S=Side, W=Width, H=Height, C=Chamfer
+
+D10	CIRCLE  D=30th                                                            DRAW
+D11	CIRCLE  D=80th                                                            DRAW
+D12	CIRCLE  D=70th                                                            DRAW
+D13	CIRCLE  D=140th                                                           DRAW
+D14	CIRCLE  D=30th                                                            FLASH
+D15	SQUARE  S=80th                                                            FLASH
+D16	CIRCLE  D=50th                                                            DRAW
+D17	CIRCLE  D=2.5th                                                           DRAW
+D18	SQUARE  S=150th                                                           FLASH
+D19	SQUARE  S=140th                                                           FLASH
+D70	SQUARE  S=100th                                                           FLASH
+D71	SQUARE  S=75th                                                            FLASH
+D20	CIRCLE  D=250th                                                           FLASH
+D21	CIRCLE  D=8th                                                             DRAW
+
+NC Drill Setup
+--------------
+Format: ASCII, 2.4, imperial, absolute, eob=<CR><LF>, no zero suppression.
+Notes:  Tool sizes are diameters. Layer sets are in brackets - 0=TOP, 15=BOTTOM, 1-14=INNER.
+
+T01	15th (0-15) Plated
+T02	30th (0-15) Plated
+T03	40th (0-15) Plated
+T04	60th (0-15) Plated
+T05	65th (0-15) Plated
+T06	50th (0-15) Plated
+T07	157.4th (0-15) Plated
+
+
+[END OF FILE]
